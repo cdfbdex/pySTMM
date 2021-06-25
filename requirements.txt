@@ -1,0 +1,7 @@
+mne
+plotly
+scipy
+scikit-learn>=0.22
+pandas
+joblib
+seaborn
