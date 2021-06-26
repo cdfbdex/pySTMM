@@ -9,9 +9,13 @@ This code is MIT-licenced.
 
 The documentation is available on URL:
 
-Linear decision function for binary Support Vector Machine may be stated as:
+Linear decision function for binary Support Vector Machine on pattern x may be stated as:
 
-![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%20wx%20&plus;%20b)
+![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%20sgn%28wx%20&plus;%20b%29)
+
+Similarly, for pattern X:
+
+![equation](https://latex.codecogs.com/gif.latex?f%28X%29%20%3D%20sgn%28u%5ETXv%20&plus;%20b%29)
 
 Multiclassification is reached by OneVsRest, or OneVsOne heuristics.
 
