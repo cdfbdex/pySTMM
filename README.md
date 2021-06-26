@@ -62,7 +62,7 @@ print(accuracy.mean())
 You can also pipeline methods using sklearn Pipeline framework. For example, to classify EEG signal using a SVM classifier in the tangent space, described in [5] :
 
 ```python
-import pystmm.classifier import STMM
+from pystmm.classifier import STMM
 from sklearn.model_selection import cross_val_score
 
 # load your data
