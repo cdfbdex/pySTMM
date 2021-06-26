@@ -51,7 +51,7 @@ X = ... # your EEG data, in format Ntrials x Nchannels X Nsamples
 y = ... # the labels
 
 # cross validation
-clf = pystmm.classification.stmm()
+clf = pystmm.classifiier.STMM()
 
 accuracy = cross_val_score(clf, cov, y)
 
@@ -62,16 +62,16 @@ print(accuracy.mean())
 You can also pipeline methods using sklearn Pipeline framework. For example, to classify EEG signal using a SVM classifier in the tangent space, described in [5] :
 
 ```python
-import pystmm.classification import stmm
+import pystmm.classifier import STMM
 from sklearn.model_selection import cross_val_score
 
 # load your data
 X = ... # your EEG data, in format Ntrials x Nchannels X Nsamples
 y = ... # the labels
 
-stmm_ = stmm()
+stmm = STMM()
 
-clf = make_pipeline(stmm_)
+clf = make_pipeline(stmm)
 # cross validation
 accuracy = cross_val_score(clf, X, y)
 
