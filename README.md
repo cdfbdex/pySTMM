@@ -11,7 +11,7 @@ The documentation is available on URL:
 
 Linear decision function for binary Support Vector Machine may be stated as:
 
-$f(x) = wx + b$, where $w,x \in R^N$.
+![equation](https://latex.codecogs.com/gif.latex?f%28x%29%20%3D%20wx%20&plus;%20b)
 
 Multiclassification is reached by OneVsRest, or OneVsOne heuristics.
 
