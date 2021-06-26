@@ -7,7 +7,13 @@ This code is MIT-licenced.
 
 ## Documentation
 
-The documentation is available on URL
+The documentation is available on URL:
+
+Linear decision function for binary Support Vector Machine may be stated as:
+
+$f(x) = wx + b$, where $w,x \in R^N$.
+
+Multiclassification is reached by OneVsRest, or OneVsOne heuristics.
 
 ## Install
 
